@@ -1,0 +1,2 @@
+document.getElementById("storeButton").addEventListener("click", function () { window.location.href = "/shop"; })
+document.getElementById("homeButton").addEventListener("click", function () { window.location.href = "/shop"; })

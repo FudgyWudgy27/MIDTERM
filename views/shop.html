@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/app.js" type="module"></script>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a> | </a>
+        <a href="/shop">Shop</a>
+    </nav>
+    <h1>Products</h1>
+    <h2>Wanting to buy? Just seeing what's in stock? Whatever your reason, here's what we got:</h2>
+    <ul>
+        <li>
+            <p>Steel Hammer <input type="button" id="hammerButton" value="Add to Cart"></p></p>
+        </li>
+        <li>
+            <p>Steel Anvil <input type="button" id="anvilButton" value="Add to Cart"></input></p>
+        </li>
+        <li>
+            <p>Ingot Mold <input type="button" id="moldButton" value="Add to Cart"></input></p>
+        </li>
+    </ul>
+    <p>Name: <input id="nameInput"></input></p>
+    <p>Email: <input id="emailInput"></input></p>
+    <p><input type="button" id="submitButton" value="Submit"></input></p>
+    </br>
+    <p><input type="button" id="generateButton" value="View Invoice">           </input><input type="button" id="downloadButton" value="Download Invoice" hidden></input></p>
+    <section>
+        <iframe id="invoicePreview" src="" frameborder="0" width="1200" height="450px"></iframe>
+    </section>
+</body>
+</html>
